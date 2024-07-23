@@ -40,7 +40,7 @@ namespace Form_Function_App.Services
         {
             try
             {
-                var response = await _httpClient.GetAsync("https://localhost:7085/api/user");
+                var response = await _httpClient.GetAsync("https://dd4e-196-229-18-119.ngrok-free.app/api/user");
                 return response.IsSuccessStatusCode;
             }
             catch (Exception ex)
