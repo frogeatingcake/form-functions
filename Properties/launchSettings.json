@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Form_Function_App": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7218",
+      "launchBrowser": false
+    }
+  }
+}
