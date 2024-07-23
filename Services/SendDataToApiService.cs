@@ -23,7 +23,7 @@ namespace Form_Function_App.Services
         {
             var json = JsonConvert.SerializeObject(user);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
-            var response = await _httpClient.PostAsync("https://1ea5-196-229-18-119.ngrok-free.app/api/user", content);
+            var response = await _httpClient.PostAsync("https://dd4e-196-229-18-119.ngrok-free.app/api/user", content);
 
             if (response.IsSuccessStatusCode)
             {
